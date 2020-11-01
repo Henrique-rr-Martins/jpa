@@ -1,13 +1,9 @@
 package CoronaTecJPA.CoronaTecJPA;
 
-import javax.persistence.EntityManager;
-import javax.persistence.EntityTransaction;
-
 import dao.PessoaDaoImpl;
 import entidades.Conta;
 import entidades.Endereco;
 import entidades.Pessoa;
-import util.JpaUtil;
 
 /**
  * Hello world!

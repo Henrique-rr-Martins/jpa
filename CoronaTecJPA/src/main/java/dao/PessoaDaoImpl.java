@@ -12,7 +12,12 @@ import entidades.Pessoa;
 import util.JpaUtil;
 
 public class PessoaDaoImpl implements PessoaDAO {
-
+	
+	/**
+	 * Busca entidade pessoa no banco realizando uma consulta pelo id da pessoa.
+	 * @param String cpf.
+	 * @return pessoa ou null se não achar nada.
+	 */
 	@Override
 	public Pessoa pesquisarPessoa(String cpf) {
 		Pessoa pessoa;
@@ -25,6 +30,12 @@ public class PessoaDaoImpl implements PessoaDAO {
 		return pessoa;
 	}
 
+	
+	/**
+	 * Busca mais completa podendo filtrar pela id da etidade ou mesmo pelos outros campos usando 1 ou mais de um filtro.
+	 * @param Pessoa pessoa.
+	 * @return pessoa ou null se não achar nada.
+	 */
 	@Override
 	public List<Pessoa> pesquisarPessoa(Pessoa pessoa) {
 		// lista de pessoas
@@ -98,6 +109,11 @@ public class PessoaDaoImpl implements PessoaDAO {
 		return lista;
 	}
 
+	/**
+	 * Insere pessoa se a chave principal não existir no banco.
+	 * @param Pessoa pessoa.
+	 * @return true se inserido e false se a chave já existia.
+	 */
 	@Override
 	public boolean inserirPessoa(Pessoa pessoa) {
 
@@ -127,6 +143,9 @@ public class PessoaDaoImpl implements PessoaDAO {
 		return true;
 	}
 
+	/**
+	 * Busca a pessoa existente no banco atraves dos atributos e 
+	 */
 	@Override
 	public boolean alterarPessoa(Pessoa pessoa) {
 		EntityManager em = JpaUtil.getEntityManager();
