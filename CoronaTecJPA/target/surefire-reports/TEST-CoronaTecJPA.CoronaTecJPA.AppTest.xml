@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="CoronaTecJPA.CoronaTecJPA.AppTest" time="0.033" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Henrique Martins\Google Drive\Fuctura Java Modulo 2 - Seg e Quar - 30_09_2020 Academia Java\Software com Banco de dados\CoronaTecJPA\target\test-classes;C:\Users\Henrique Martins\Google Drive\Fuctura Java Modulo 2 - Seg e Quar - 30_09_2020 Academia Java\Software com Banco de dados\CoronaTecJPA\target\classes;C:\Users\Henrique Martins\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\Henrique Martins\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Henrique Martins\.m2\repository\org\hibernate\hibernate-entitymanager\4.3.0.Final\hibernate-entitymanager-4.3.0.Final.jar;C:\Users\Henrique Martins\.m2\repository\org\jboss\logging\jboss-logging\3.1.3.GA\jboss-logging-3.1.3.GA.jar;C:\Users\Henrique Martins\.m2\repository\org\jboss\logging\jboss-logging-annotations\1.2.0.Beta1\jboss-logging-annotations-1.2.0.Beta1.jar;C:\Users\Henrique Martins\.m2\repository\org\hibernate\hibernate-core\4.3.0.Final\hibernate-core-4.3.0.Final.jar;C:\Users\Henrique Martins\.m2\repository\antlr\antlr\2.7.7\antlr-2.7.7.jar;C:\Users\Henrique Martins\.m2\repository\org\jboss\jandex\1.1.0.Final\jandex-1.1.0.Final.jar;C:\Users\Henrique Martins\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Users\Henrique Martins\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;C:\Users\Henrique Martins\.m2\repository\org\hibernate\common\hibernate-commons-annotations\4.0.4.Final\hibernate-commons-annotations-4.0.4.Final.jar;C:\Users\Henrique Martins\.m2\repository\org\hibernate\javax\persistence\hibernate-jpa-2.1-api\1.0.0.Final\hibernate-jpa-2.1-api-1.0.0.Final.jar;C:\Users\Henrique Martins\.m2\repository\org\jboss\spec\javax\transaction\jboss-transaction-api_1.2_spec\1.0.0.Final\jboss-transaction-api_1.2_spec-1.0.0.Final.jar;C:\Users\Henrique Martins\.m2\repository\org\javassist\javassist\3.18.1-GA\javassist-3.18.1-GA.jar;C:\Users\Henrique Martins\.m2\repository\com\oracle\ojdbc6\11.2.0\ojdbc6-11.2.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Bahia"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="BR"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_261\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\HENRIQ~1\AppData\Local\Temp\surefire3530667842329017308\surefirebooter8812726052058702204.jar C:\Users\Henrique Martins\AppData\Local\Temp\surefire3530667842329017308 2020-10-26T20-05-09_773-jvmRun1 surefire4097542561092450283tmp surefire_04946065044893337644tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\Henrique Martins\Google Drive\Fuctura Java Modulo 2 - Seg e Quar - 30_09_2020 Academia Java\Software com Banco de dados\CoronaTecJPA\target\test-classes;C:\Users\Henrique Martins\Google Drive\Fuctura Java Modulo 2 - Seg e Quar - 30_09_2020 Academia Java\Software com Banco de dados\CoronaTecJPA\target\classes;C:\Users\Henrique Martins\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\Henrique Martins\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Henrique Martins\.m2\repository\org\hibernate\hibernate-entitymanager\4.3.0.Final\hibernate-entitymanager-4.3.0.Final.jar;C:\Users\Henrique Martins\.m2\repository\org\jboss\logging\jboss-logging\3.1.3.GA\jboss-logging-3.1.3.GA.jar;C:\Users\Henrique Martins\.m2\repository\org\jboss\logging\jboss-logging-annotations\1.2.0.Beta1\jboss-logging-annotations-1.2.0.Beta1.jar;C:\Users\Henrique Martins\.m2\repository\org\hibernate\hibernate-core\4.3.0.Final\hibernate-core-4.3.0.Final.jar;C:\Users\Henrique Martins\.m2\repository\antlr\antlr\2.7.7\antlr-2.7.7.jar;C:\Users\Henrique Martins\.m2\repository\org\jboss\jandex\1.1.0.Final\jandex-1.1.0.Final.jar;C:\Users\Henrique Martins\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Users\Henrique Martins\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;C:\Users\Henrique Martins\.m2\repository\org\hibernate\common\hibernate-commons-annotations\4.0.4.Final\hibernate-commons-annotations-4.0.4.Final.jar;C:\Users\Henrique Martins\.m2\repository\org\hibernate\javax\persistence\hibernate-jpa-2.1-api\1.0.0.Final\hibernate-jpa-2.1-api-1.0.0.Final.jar;C:\Users\Henrique Martins\.m2\repository\org\jboss\spec\javax\transaction\jboss-transaction-api_1.2_spec\1.0.0.Final\jboss-transaction-api_1.2_spec-1.0.0.Final.jar;C:\Users\Henrique Martins\.m2\repository\org\javassist\javassist\3.18.1-GA\javassist-3.18.1-GA.jar;C:\Users\Henrique Martins\.m2\repository\com\oracle\ojdbc6\11.2.0\ojdbc6-11.2.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Henrique Martins"/>
+    <property name="user.language" value="pt"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_261\jre"/>
+    <property name="basedir" value="C:\Users\Henrique Martins\Google Drive\Fuctura Java Modulo 2 - Seg e Quar - 30_09_2020 Academia Java\Software com Banco de dados\CoronaTecJPA"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\HENRIQ~1\AppData\Local\Temp\surefire3530667842329017308\surefirebooter8812726052058702204.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_261\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_261\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_261-b12"/>
+    <property name="user.name" value="Henrique Martins"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_261\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Henrique Martins\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\HENRIQ~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_261"/>
+    <property name="user.dir" value="C:\Users\Henrique Martins\Google Drive\Fuctura Java Modulo 2 - Seg e Quar - 30_09_2020 Academia Java\Software com Banco de dados\CoronaTecJPA"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_261\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_261/bin/server;C:/Program Files/Java/jre1.8.0_261/bin;C:/Program Files/Java/jre1.8.0_261/lib/amd64;C:\Users\Henrique Martins\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Git\cmd;C:\Users\Henrique Martins\AppData\Local\Microsoft\WindowsApps;;C:\Windows\System32;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.261-b12"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_261\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="shouldAnswerWithTrue" classname="CoronaTecJPA.CoronaTecJPA.AppTest" time="0.001"/>
+</testsuite>
